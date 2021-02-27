@@ -1,8 +1,9 @@
 /*****
- * Edit this line to have your name.
+ * Jennifer Lemley
  ******/
 public class GitDemo {
     
+    private double reverseNum;
     private double previousNumber;
     
     public GitDemo() {
@@ -13,6 +14,7 @@ public class GitDemo {
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
     public double addNumber(double num) {
+        sum = num + previousNumber; // added for part b.i.
         System.out.print("Add num to previousNumber");
         return 0;
     }
@@ -45,7 +47,7 @@ public class GitDemo {
         for(int i = 1; i <= num; ++i){
             newNumber = newNumber * i;
         }
-        
+        reverseNum = newNumber; //added for part c.ii.
         return newNumber;
     }
     
